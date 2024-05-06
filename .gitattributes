@@ -1,1 +1,2 @@
+bin/external/assimp-3.0.1270/code/Debug/assimp.lib filter=lfs diff=lfs merge=lfs -text
 assimp.lib filter=lfs diff=lfs merge=lfs -text
