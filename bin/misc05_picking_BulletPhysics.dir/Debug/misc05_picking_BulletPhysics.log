@@ -1,0 +1,11 @@
+﻿  Building Custom Rule D:/TrabajosAmerike/FinalOGL/CMakeLists.txt
+  misc05_picking_BulletPhysics.cpp
+  shader.cpp
+  controls.cpp
+  texture.cpp
+  objloader.cpp
+  vboindexer.cpp
+D:\TrabajosAmerike\FinalOGL\misc05_picking\misc05_picking_BulletPhysics.cpp(264,29): warning C4312: 'conversión de tipo': conversión de 'int' a 'void *' de mayor tamaño
+D:\TrabajosAmerike\FinalOGL\misc05_picking\misc05_picking_BulletPhysics.cpp(289,19): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+D:\TrabajosAmerike\FinalOGL\misc05_picking\misc05_picking_BulletPhysics.cpp(413,17): warning C4267: 'argumento': conversión de 'size_t' a 'GLsizei'; posible pérdida de datos
+  misc05_picking_BulletPhysics.vcxproj -> D:\TrabajosAmerike\FinalOGL\bin\Debug\misc05_picking_BulletPhysics.exe

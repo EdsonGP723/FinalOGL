@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\TrabajosAmerike\\FinalOGL\\bin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F1C93A71-BFB6-3EAA-9F56-61ED0EB85074}|tutorial07_model_loading.vcxproj|D:\\TrabajosAmerike\\FinalOGL\\tutorial07_model_loading\\tutorial07.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "tutorial07.cpp",
+              "DocumentMoniker": "D:\\TrabajosAmerike\\FinalOGL\\tutorial07_model_loading\\tutorial07.cpp",
+              "RelativeDocumentMoniker": "..\\tutorial07_model_loading\\tutorial07.cpp",
+              "ToolTip": "D:\\TrabajosAmerike\\FinalOGL\\tutorial07_model_loading\\tutorial07.cpp",
+              "RelativeToolTip": "..\\tutorial07_model_loading\\tutorial07.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-06T04:52:21.533Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

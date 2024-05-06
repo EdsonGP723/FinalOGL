@@ -1,0 +1,10 @@
+﻿  Building Custom Rule D:/TrabajosAmerike/FinalOGL/CMakeLists.txt
+  misc05_picking_slow_easy.cpp
+  shader.cpp
+  controls.cpp
+  texture.cpp
+  objloader.cpp
+  vboindexer.cpp
+D:\TrabajosAmerike\FinalOGL\misc05_picking\misc05_picking_slow_easy.cpp(241,18): warning C4267: 'argumento': conversión de 'size_t' a 'GLsizei'; posible pérdida de datos
+D:\TrabajosAmerike\FinalOGL\misc05_picking\misc05_picking_slow_easy.cpp(366,17): warning C4267: 'argumento': conversión de 'size_t' a 'GLsizei'; posible pérdida de datos
+  misc05_picking_slow_easy.vcxproj -> D:\TrabajosAmerike\FinalOGL\bin\Debug\misc05_picking_slow_easy.exe

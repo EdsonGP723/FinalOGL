@@ -1,0 +1,9 @@
+﻿  Building Custom Rule D:/TrabajosAmerike/FinalOGL/CMakeLists.txt
+  misc05_picking_custom.cpp
+  shader.cpp
+  controls.cpp
+  texture.cpp
+  objloader.cpp
+  vboindexer.cpp
+D:\TrabajosAmerike\FinalOGL\misc05_picking\misc05_picking_custom.cpp(485,17): warning C4267: 'argumento': conversión de 'size_t' a 'GLsizei'; posible pérdida de datos
+  misc05_picking_custom.vcxproj -> D:\TrabajosAmerike\FinalOGL\bin\Debug\misc05_picking_custom.exe

@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C3F6298D-7E6B-3C24-AB3E-995B384624E7}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\TrabajosAmerike\FinalOGL\external\AntTweakBar-1.16\include;D:\TrabajosAmerike\FinalOGL\external\glfw-3.1.2\include;D:\TrabajosAmerike\FinalOGL\external\glm-0.9.7.1;D:\TrabajosAmerike\FinalOGL\external\glew-1.13.0\include;D:\TrabajosAmerike\FinalOGL\external\assimp-3.0.1270\include;D:\TrabajosAmerike\FinalOGL\external\bullet-2.81-rev2613\src;D:\TrabajosAmerike\FinalOGL\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\TrabajosAmerike\FinalOGL\external\AntTweakBar-1.16\include;D:\TrabajosAmerike\FinalOGL\external\glfw-3.1.2\include;D:\TrabajosAmerike\FinalOGL\external\glm-0.9.7.1;D:\TrabajosAmerike\FinalOGL\external\glew-1.13.0\include;D:\TrabajosAmerike\FinalOGL\external\assimp-3.0.1270\include;D:\TrabajosAmerike\FinalOGL\external\bullet-2.81-rev2613\src;D:\TrabajosAmerike\FinalOGL\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\TrabajosAmerike\FinalOGL\external\AntTweakBar-1.16\include;D:\TrabajosAmerike\FinalOGL\external\glfw-3.1.2\include;D:\TrabajosAmerike\FinalOGL\external\glm-0.9.7.1;D:\TrabajosAmerike\FinalOGL\external\glew-1.13.0\include;D:\TrabajosAmerike\FinalOGL\external\assimp-3.0.1270\include;D:\TrabajosAmerike\FinalOGL\external\bullet-2.81-rev2613\src;D:\TrabajosAmerike\FinalOGL\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\TrabajosAmerike\FinalOGL\external\AntTweakBar-1.16\include;D:\TrabajosAmerike\FinalOGL\external\glfw-3.1.2\include;D:\TrabajosAmerike\FinalOGL\external\glm-0.9.7.1;D:\TrabajosAmerike\FinalOGL\external\glew-1.13.0\include;D:\TrabajosAmerike\FinalOGL\external\assimp-3.0.1270\include;D:\TrabajosAmerike\FinalOGL\external\bullet-2.81-rev2613\src;D:\TrabajosAmerike\FinalOGL\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TrabajosAmerike\FinalOGL\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/TrabajosAmerike/FinalOGL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/TrabajosAmerike/FinalOGL -BD:/TrabajosAmerike/FinalOGL/bin --check-stamp-file D:/TrabajosAmerike/FinalOGL/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\3.29.2\CMakeCCompiler.cmake;D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\3.29.2\CMakeCXXCompiler.cmake;D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\3.29.2\CMakeRCCompiler.cmake;D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\3.29.2\CMakeSystem.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/TrabajosAmerike/FinalOGL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/TrabajosAmerike/FinalOGL -BD:/TrabajosAmerike/FinalOGL/bin --check-stamp-file D:/TrabajosAmerike/FinalOGL/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\3.29.2\CMakeCCompiler.cmake;D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\3.29.2\CMakeCXXCompiler.cmake;D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\3.29.2\CMakeRCCompiler.cmake;D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\3.29.2\CMakeSystem.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/TrabajosAmerike/FinalOGL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/TrabajosAmerike/FinalOGL -BD:/TrabajosAmerike/FinalOGL/bin --check-stamp-file D:/TrabajosAmerike/FinalOGL/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\3.29.2\CMakeCCompiler.cmake;D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\3.29.2\CMakeCXXCompiler.cmake;D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\3.29.2\CMakeRCCompiler.cmake;D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\3.29.2\CMakeSystem.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/TrabajosAmerike/FinalOGL/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/TrabajosAmerike/FinalOGL -BD:/TrabajosAmerike/FinalOGL/bin --check-stamp-file D:/TrabajosAmerike/FinalOGL/bin/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\Platform\WindowsPaths.cmake;D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\3.29.2\CMakeCCompiler.cmake;D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\3.29.2\CMakeCXXCompiler.cmake;D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\3.29.2\CMakeRCCompiler.cmake;D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\3.29.2\CMakeSystem.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;D:\TrabajosAmerike\FinalOGL\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\TrabajosAmerike\FinalOGL\bin\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\ZERO_CHECK.vcxproj">
+      <Project>{BC2097A1-75F1-372A-B8FA-31203B2CFFA3}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj">
+      <Project>{6786C209-B786-341E-AFBD-8A7E450FA5FC}</Project>
+      <Name>ANTTWEAKBAR_116_OGLCORE_GLFW</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\bullet-2.81-rev2613\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{C7B1A5BB-1531-3CFA-A41B-59EABFDA5556}</Project>
+      <Name>BulletCollision</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\bullet-2.81-rev2613\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{B57EE75C-2B91-3928-AFEC-2204682979AE}</Project>
+      <Name>BulletDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\bullet-2.81-rev2613\src\BulletSoftBody\BulletSoftBody.vcxproj">
+      <Project>{D32FB7A0-1B0A-37E3-87F0-7BCB89A71DC1}</Project>
+      <Name>BulletSoftBody</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\GLEW_1130.vcxproj">
+      <Project>{84F17D94-6A7B-3D76-A3DC-A4E6474519AB}</Project>
+      <Name>GLEW_1130</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\bullet-2.81-rev2613\src\LinearMath\LinearMath.vcxproj">
+      <Project>{72A08E2A-919B-38BC-8740-1BD31DC46B3E}</Project>
+      <Name>LinearMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\assimp-3.0.1270\code\assimp.vcxproj">
+      <Project>{DDA2F2D1-A3D8-3DA8-BA32-E37D6E5BF55D}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\examples\boing.vcxproj">
+      <Project>{6CA3C3DB-EC69-3C49-BA0E-CE6A17E3AA5E}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\tests\clipboard.vcxproj">
+      <Project>{5D55AC4A-441E-3D40-AE35-8939BFF5D0C2}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\tests\cursor.vcxproj">
+      <Project>{F0DA35C1-261E-3D1A-97B3-E84D7A745ADD}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\tests\empty.vcxproj">
+      <Project>{5E0934DC-9D60-3281-96B0-DAF28BC2AB32}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\tests\events.vcxproj">
+      <Project>{C43164B6-6F88-3319-BC4E-EEE79BBC7FCE}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\tests\gamma.vcxproj">
+      <Project>{E1FBFBA3-CA74-33C7-9AA2-A91EA03DEC86}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\examples\gears.vcxproj">
+      <Project>{EF0D2D2A-9739-32F7-B757-F546FA84623F}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\src\glfw.vcxproj">
+      <Project>{D4A7D222-8286-3DAB-9527-EDBF73501B1F}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\tests\glfwinfo.vcxproj">
+      <Project>{21D38166-1A4F-34FA-8285-B17D431F5D38}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\examples\heightmap.vcxproj">
+      <Project>{BF57CE15-5464-3A9F-96CC-8458C5FE9D20}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\tests\iconify.vcxproj">
+      <Project>{CCC089EA-8BEF-3584-8E0A-921A49F35EE3}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\tests\joysticks.vcxproj">
+      <Project>{5D061021-C1E7-3933-8ECE-6BE0BF1FD74D}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\misc05_picking_BulletPhysics.vcxproj">
+      <Project>{01E0FF6B-B59C-3559-A916-B4E78F7CD41C}</Project>
+      <Name>misc05_picking_BulletPhysics</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\misc05_picking_custom.vcxproj">
+      <Project>{13384819-42AE-385A-AA82-68167365422F}</Project>
+      <Name>misc05_picking_custom</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\misc05_picking_slow_easy.vcxproj">
+      <Project>{B949C2DB-8CFD-399B-8E2F-F77F1E1C9838}</Project>
+      <Name>misc05_picking_slow_easy</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\tests\monitors.vcxproj">
+      <Project>{D37F7E6F-9017-3630-BD7E-7319A0D8E5F4}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\tests\msaa.vcxproj">
+      <Project>{D5A27771-B185-34AC-9899-78BA613B9468}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\examples\particles.vcxproj">
+      <Project>{E0014672-FA7B-3F3F-8BA3-E1E9FE56605A}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\playground.vcxproj">
+      <Project>{0B3D6313-917F-3554-9E80-83BD9D0B0175}</Project>
+      <Name>playground</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\tests\reopen.vcxproj">
+      <Project>{D47750AF-D3D3-3341-B7C0-30AFD173C899}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\tests\sharing.vcxproj">
+      <Project>{962C6151-4A8A-3AE4-AB14-4E143E8F0D4E}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\examples\simple.vcxproj">
+      <Project>{26D576ED-D072-39A0-9630-15C5C7527DCC}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\examples\splitview.vcxproj">
+      <Project>{3A6587AC-8662-3DE7-B46B-230613FBCFAA}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\tests\tearing.vcxproj">
+      <Project>{2AD9C646-05AB-3BE4-8682-AE11FF41E631}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\tests\threads.vcxproj">
+      <Project>{8ABC21BD-0CA0-39D1-B2E2-D4C33A2D492A}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\tests\title.vcxproj">
+      <Project>{87FF238B-AE6A-3277-BB7A-5CC69E71E7CE}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\tutorial07_model_loading.vcxproj">
+      <Project>{F1C93A71-BFB6-3EAA-9F56-61ED0EB85074}</Project>
+      <Name>tutorial07_model_loading</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\examples\wave.vcxproj">
+      <Project>{44F56B92-3152-3AB2-97A4-CA52ADEBEBC0}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\glfw-3.1.2\tests\windows.vcxproj">
+      <Project>{CE4275DB-31C1-3EBF-B82F-E136F33BE59D}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\TrabajosAmerike\FinalOGL\bin\external\assimp-3.0.1270\contrib\zlib\zlib.vcxproj">
+      <Project>{EF037612-B795-334A-917B-030021E2A318}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

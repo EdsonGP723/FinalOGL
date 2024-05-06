@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\TrabajosAmerike\FinalOGL\misc05_picking\misc05_picking_BulletPhysics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TrabajosAmerike\FinalOGL\common\shader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TrabajosAmerike\FinalOGL\common\controls.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TrabajosAmerike\FinalOGL\common\texture.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TrabajosAmerike\FinalOGL\common\objloader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\TrabajosAmerike\FinalOGL\common\vboindexer.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\TrabajosAmerike\FinalOGL\common\shader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TrabajosAmerike\FinalOGL\common\controls.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TrabajosAmerike\FinalOGL\common\texture.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TrabajosAmerike\FinalOGL\common\objloader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\TrabajosAmerike\FinalOGL\common\vboindexer.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\TrabajosAmerike\FinalOGL\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\TrabajosAmerike\FinalOGL\misc05_picking\StandardShading.vertexshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="D:\TrabajosAmerike\FinalOGL\misc05_picking\StandardShading.fragmentshader">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D113EB9E-9CB5-383D-8D6A-EEC9D36B0CF8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{989611FD-C8D7-381B-8F74-27CA39169CF5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{994C1572-A8FC-3E40-8F1B-1BB035F0595E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

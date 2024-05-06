@@ -1,0 +1,10 @@
+^D:\TRABAJOSAMERIKE\FINALOGL\BIN\CMAKEFILES\05733208B952150AC96CA6E4BA189469\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/TrabajosAmerike/FinalOGL -BD:/TrabajosAmerike/FinalOGL/bin --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/TrabajosAmerike/FinalOGL/bin/Tutorials.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
